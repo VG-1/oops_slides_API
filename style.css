@@ -1,0 +1,136 @@
+body {
+    position: relative; 
+  }
+  #section1 {padding-top:100px;height:1000px;color: #e9ebf1; background-color: #2e323b;}
+  #section2 {padding-top:50px;height:1000px;color: #fff; background-color: #793af8 ;}
+  #section3 {padding-top:50px;height:1000px;color: #fff; background-color: #ffae00;}
+  #section41 {padding-top:50px;height:1000px;color: #fff; background-color: #056050;}
+  #section42 {padding-top:50px;height:1000px;color: #fff; background-color: #009688;}
+  #section5 {padding-top:50px;height:1000px;color: #fff; background-color: #000000;}
+
+  #section1{
+    font-size: 150%;
+  }
+  
+
+  .heading{
+    text-align: center;
+  }
+  #image{
+    align-content: left;
+  }
+  
+  
+  .video{
+float:left;
+
+  }
+  #section3{
+    font-size: 180%;
+  }
+  #slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+
+#slideshow{
+  float:center;
+}
+ 
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+ 
+/* Add animation to the slides */
+ 
+.slide-wrapper {
+     
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(728px * 4);
+     
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 40s ease infinite;
+    
+}
+ 
+/* Set the background color
+of each of the slides */
+/*  
+.slide:nth-child(1) {
+    background: green;
+}
+ 
+.slide:nth-child(2) {
+    background: pink;
+}
+ 
+.slide:nth-child(3) {
+    background: red;
+}
+ 
+.slide:nth-child(4) {
+    background: yellow;
+} */
+ 
+/* Define the animation
+for the slideshow */
+ 
+@keyframes slide {
+     
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+.heading{
+  float:center;
+}
+#section41{
+  font-size: 180%;
+}
+#section42{
+  font-size: 180%;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+
+}
+
+
+.pay{
+  float: left;
+}
