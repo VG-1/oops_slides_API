@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     position: relative; 
   }
@@ -133,4 +136,17 @@ for the slideshow */
 
 .pay{
   float: left;
+}
+
+
+.img2{
+  float:right;
+  
+}
+.text{
+  float: left;
+}
+#cons{
+  font-size: 52;
+  float: center;
 }
